@@ -6,7 +6,7 @@ const mongoose = require('mongoose');
 
 const db_password = 'mahmoud808';
 
-mongoose.connect(process.env.MONGODB_URI || 'mongodb+srv://Cogi:'+db_password+'@city-data-db-3bqg0.mongodb.net/test?retryWrites=true&w=majority', {
+mongoose.connect('mongodb+srv://Cogi:'+db_password+'@city-data-db-3bqg0.mongodb.net/test?retryWrites=true&w=majority', {
   useUnifiedTopology: true,
   useNewUrlParser: true
 });
