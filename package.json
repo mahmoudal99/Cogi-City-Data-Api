@@ -1,0 +1,25 @@
+{
+  "name": "city_data_api",
+  "version": "1.0.0",
+  "description": "A Node.js RESTful API for storing information of cities",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "engines": {
+    "node": "10.16.0",
+  },
+  "author": "Mahmoud Almahroum",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cities.json": "^1.1.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.7.0",
+    "morgan": "^1.9.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.2"
+  }
+}
